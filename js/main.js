@@ -17,3 +17,5 @@ for (let i = 0; i < accordions.length; i++) {
     }
   };
 }
+
+
