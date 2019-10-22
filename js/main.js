@@ -18,7 +18,7 @@ for (let i = 0; i < accordions.length; i++) {
   };
 }
 
-$('.landing .btn').on('click', function(event) {
+$('.landing .btn, .contact-cards a').on('click', function(event) {
   if (this.hash !== '') {
     event.preventDefault();
 
