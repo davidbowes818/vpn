@@ -18,7 +18,7 @@ for (let i = 0; i < accordions.length; i++) {
   };
 }
 
-$('.landing a').on('click', function(event) {
+$('.landing .btn').on('click', function(event) {
   if (this.hash !== '') {
     event.preventDefault();
 
